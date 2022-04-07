@@ -15,8 +15,8 @@ replicaCount: 1
 
 image:
   registry: ""
-  repository: onosproject/onos-kpimon
-  tag: '{{ .Chart.AppVersion }}'
+  repository: abdoutlili/onos-kpimon-custom
+  tag: 'latest'
   pullPolicy: IfNotPresent
   pullSecrets: []
 

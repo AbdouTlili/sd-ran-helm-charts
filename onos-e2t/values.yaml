@@ -72,6 +72,13 @@ servicemodels:
       repository: onosproject/service-model-docker-e2sm_rsm-1.0.0
       tag: v0.8.7
       pullPolicy: IfNotPresent
+
+  - name: e2sm_met
+    version: 1.0.0
+    image:
+      repository: abdoutlili/service-model-docker-e2sm_met-1.0.0
+      tag: v0.8.7
+      pullPolicy: IfNotPresent
 #  - name: e2sm_ni
 #    version: 1.0.0
 #    image:
