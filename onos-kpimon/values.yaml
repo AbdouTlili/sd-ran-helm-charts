@@ -15,7 +15,7 @@ replicaCount: 1
 
 image:
   registry: ""
-  repository: abdoutlili/onos-kpimon-custom
+  repository: onosproject/onos-kpimon
   tag: 'latest'
   pullPolicy: IfNotPresent
   pullSecrets: []
