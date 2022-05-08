@@ -174,16 +174,13 @@ onos-e2t:
         repository: onosproject/service-model-docker-e2sm_rc-1.0.0
         tag: v0.8.10
         pullPolicy: IfNotPresent
-<<<<<<< HEAD
     - name: e2sm_met
       version: 1.0.0
       image: 
         repository: abdoutlili/service-model-docker-e2sm_met-1.0.0
-        tag: v0.8.7
+        tag: latest
         pullPolicy: IfNotPresent
 
-=======
->>>>>>> 92ad19fab8ac63a092afec88b281dc23a274d465
 
 onos-cli:
   postInstall:
